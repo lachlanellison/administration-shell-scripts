@@ -1,6 +1,6 @@
 Import-Module ActiveDirectory
-$TargetOU = "OU=OLD,DC=contso,DC=com"
-$Computers = Get-Content -Path C:\Scripts\oldcomputers.txt
+$TargetOU = "DistinguishedName"
+$Computers = Get-Content -Path C:\Scripts\objects.txt
 
 foreach ($Computer in $Computers)
 {
