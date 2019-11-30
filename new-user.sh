@@ -5,8 +5,8 @@ HOMEDIR="/home/" #Set your home base directory
 if [ $(id -u) -eq 0 ]; then
     read -p "Enter username : " USERNAME
     read -s -p "Enter password : " PASSWORD
-    #Set password strength settings.
-   
+    #Set password strength settings
+    
     egrep -w "^$USERNAME" /etc/passwd >/dev/null
     if [ $? -eq 0 ]; then
         echo -e "\n$USERNAME exists!\n"
