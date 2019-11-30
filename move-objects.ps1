@@ -1,6 +1,6 @@
 Import-Module ActiveDirectory
 $TargetOU = "DistinguishedName"
-$Computers = Get-Content -Path C:\Scripts\objects.txt
+$Computer = Get-Content -Path "Path to .txt file"
 
 foreach ($Computer in $Computers)
 {
