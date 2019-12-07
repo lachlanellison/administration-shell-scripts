@@ -16,4 +16,4 @@
                  minutes=59
                  let "hours=hours-1"
          done
-echo "**Timer for $1 :hours $2 :minutes $3 :seconds has complted**"
+echo "**Timer for $1 :hours $2 :minutes $3 :seconds has completed**"
