@@ -13,5 +13,4 @@ for LOC in $LOCATION; do
         echo "$DISPLAY"
         echo "================================"
 done
-echo "$FILENO files searched"
-~                                
+echo "$FILENO files searched"                           
